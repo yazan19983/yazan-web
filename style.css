@@ -87,7 +87,7 @@ section{
     padding: 0.9375em 2.1875em;
     letter-spacing: 1px;
     border-radius: 15px;
-    margin-bottom: 24px;
+    margin-bottom: 30px;
     transition: 0.7s ease;
 }
 .main-btn:hover {
@@ -133,7 +133,7 @@ section{
     transform: scale(1.1);
 }
 
-.icon {
+.card .icon {
     color: #3a6cf4;
     font-size: 6em;
     text-align: center;
@@ -151,6 +151,25 @@ section{
 
 .info p{
     text-align: left;
+}
+
+
+
+.contact{
+    background-color: #c5dfff;
+}
+
+.contact .icon{
+    font-size: 4.5em;
+}
+
+.contact .info h3{
+    color: #000;
+}
+
+.contact .info p{
+    font-size: 1.2em;
+    text-align: center;
 }
 
 .footer{
@@ -173,23 +192,6 @@ font-weight: 600;
 .footer .social-icons a{
     font-size: 2em;
     padding-right: 14px;
-}
-
-.contact{
-    background-color: #c5dfff;
-}
-
-.contact .icon{
-    font-size: 4.5em;
-}
-
-.contact .info h3{
-    color: #000;
-}
-
-.contact .info p{
-    font-size: 1.2em;
-    text-align: center;
 }
 
 #apple{
